@@ -1,5 +1,5 @@
 name: patch_mirrors
-version: 0.0.2
+version: 0.0.3
 author: Matthew Franglen <matthew.franglen@gmail.com>
 homepage: https://github.com/matthewfranglen/dart-patch-mirrors
 description: Provide implementations for unimplemented or buggy mirror functionality
