@@ -1,12 +1,11 @@
 dart:mirrors patch
---------
+==================
 
 This library provides implementations for unimplemented or buggy mirror functionality.
 
 It is expected that these issues will be resolved eventually. At that point this library will be useless.
 
-isSubtypeOf
------------
+### isSubtypeOf
 
 Test if an instance of a class is a subtype of a given type.
 
@@ -14,8 +13,7 @@ It appears that the dart2js implementation of ClassMirror.isAssignableTo and ass
 
 This attempts to call the ClassMirror.isAssignableTo method, and if that fails falls back on a manual approach. The manual approach scans the class hierarchy for an exact match.
 
-invoke
-------
+### invoke
 
 Invoke a MethodMirror correctly, handling getters and setters.
 
@@ -31,8 +29,7 @@ Creating Symbol instances is intentionally hard. It is difficult to extract the 
 
 This method invokes setters in this way, and all other methods in the usual way.
 
-getSymbolValue
---------------
+### getSymbolValue
 
 Get the contained String from a Symbol.
 
