@@ -1,6 +1,6 @@
 import 'dart:async';
 import 'dart:mirrors';
-import 'package:patch_mirrors/patch.dart';
+import 'package:patch_mirrors/patch_mirrors.dart';
 import 'package:unittest/unittest.dart';
 
 final String nl = "\n     ";
