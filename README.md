@@ -9,9 +9,9 @@ It is expected that these issues will be resolved eventually. At that point this
 
 Test if an instance of a class is a subtype of a given type.
 
-It appears that the dart2js implementation of ClassMirror.isAssignableTo and associated methods is missing. This means that when compiled to javascript previously working code can fail, throwing an UnimplementedError.
+It appears that the dart2js implementation of ClassMirror.isSubtypeOf and associated methods is missing. This means that when compiled to javascript previously working code can fail, throwing an UnimplementedError.
 
-This attempts to call the ClassMirror.isAssignableTo method, and if that fails falls back on a manual approach. The manual approach scans the class hierarchy for an exact match.
+This attempts to call the ClassMirror.isSubtypeOf method, and if that fails falls back on a manual approach. The manual approach scans the class hierarchy for an exact match.
 
 ### invoke
 
