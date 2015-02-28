@@ -5,10 +5,10 @@ This library provides implementations for unimplemented or buggy mirror function
 
 It is expected that these issues will be resolved eventually. At that point this library will be useless.
 
-isAssignableTo
---------------
+isSubtypeOf
+-----------
 
-Test if an instance of a class can be assigned to a variable of a given type.
+Test if an instance of a class is a subtype of a given type.
 
 It appears that the dart2js implementation of ClassMirror.isAssignableTo and associated methods is missing. This means that when compiled to javascript previously working code can fail, throwing an UnimplementedError.
 
